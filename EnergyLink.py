@@ -18,9 +18,7 @@ url = "<fill in your ip>"
 Password = "<fill in your password>"
 command = "/el/get/0/readings"
 TijdStip = datetime.datetime.now()
-#tijd = (str(TijdStip.hour) + ":" + str(TijdStip.minute))
 tijd = TijdStip.strftime("%H:%M")
-#datum = (str(TijdStip.day) + "-" + str(TijdStip.month) + "-" + str(TijdStip.year))
 datum = TijdStip.strftime("%d-%m-%y")
 
 connection = http.client.HTTPConnection(url)
