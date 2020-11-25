@@ -10,5 +10,5 @@ The idea is to readout the HomeWizard Energy Link (HomeWizard EL) and get a day-
 Yes I know there is also the https://github.com/rvdvoorde/domoticz-homewizard, but this is not delivering what I wanted. So I decided to do some programming myself.
 
 I added an example crontab file and a script. 
-This way you can run it for example every hour
+This way you can run it for example every hour.
 
